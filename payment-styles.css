@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    background-color: orange;
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 2px solid #FFA500; /* Orange border at the bottom */
+}
+
+header h1 {
+    color: white; /* Text color */
+    margin: 0; /* Remove default margin */
+}
+
+.page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#payment-container {
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px; /* Add margin at the bottom to separate from confirmation */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+/* Adjust the width and padding for the input fields */
+input[type="text"],
+input[type="number"],
+select {
+    width: 92%;
+    padding: 8px; /* Adjust the padding as needed */
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%; /* Set a fixed width for the button */
+    max-width: 200px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the button horizontally */
+}
+
+.confirmation {
+    text-align: center;
+    display: none;
+    margin-top: -425px; /* Add margin at the top to separate from payment container */
+}

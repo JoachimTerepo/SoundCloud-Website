@@ -1,0 +1,129 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Style the header container */
+.header-container {
+  display: flex;
+  flex-direction: column; /* Stack child elements vertically */
+  align-items: center; /* Center child elements horizontally */
+  background-color: orange;
+  padding: 10px;
+  text-align: center; /* Center text within the header container */
+}
+
+/* Style the logo div */
+.logo {
+  padding: 10px;
+}
+
+/* Style the logo image */
+.logo img {
+  width: 100px;
+  height: auto;
+}
+
+/* Style the title */
+.title {
+  flex-grow: 1; /* Allow title to grow and take up remaining space */
+  align-items: center;
+}
+
+/* Optional: Add a specific font size for the title */
+.title h1 {
+  font-size: 30px; /* Adjust the font size as needed */
+}
+
+.user-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the content horizontally */
+  justify-content: center; /* Center the content vertically */
+}
+
+/* Style the "Switch Profile" button */
+#switch-profile {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+#switch-profile:hover {
+  background-color: #ff6600; /* Change color on hover */
+}
+
+.centered-header {
+  text-align: center; /* Center the content horizontally */
+  margin-top: 20px; /* Add top margin for spacing */
+}
+
+.centered-header h2 {
+  font-size: 24px; /* Adjust the font size as needed */
+}
+
+.centered-buttons {
+  text-align: center; /* Center the content horizontally */
+  margin-top: 20px; /* Add top margin for spacing */
+}
+
+/* Style the image buttons */
+.centered-buttons a {
+  display: inline-block; /* Display buttons side by side */
+  margin: 0 10px; /* Add horizontal margin for spacing between buttons */
+  text-align: center; /* Center the button content horizontally */
+  text-decoration: none; /* Remove underlines from anchor links */
+}
+
+.centered-buttons img {
+  width: 200px; /* Adjust the image width as needed */
+  height: auto;
+  cursor: pointer; /* Add pointer cursor for buttons */
+}
+
+.centered-buttons a:hover img {
+  opacity: 0.7; /* Reduce opacity on hover */
+}
+
+.go-button {
+  text-align: center; /* Center the content horizontally */
+  margin-top: 20px; /* Add top margin for spacing */
+}
+
+.go-button button {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.go-button button:hover {
+  background-color: #ff6600; /* Change color on hover */
+}
+
+/* Style the "Go+" button link */
+.go-button-link {
+  text-decoration: none; /* Remove underlines from anchor links */
+  display: inline-block; /* Remove default anchor styling */
+}
+
+/* Style the "Download" button */
+.download-button {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-left: 10px; /* Add left margin to separate it from the "Go+" button */
+}
+
+.download-button:hover {
+  background-color: #ff6600; /* Change color on hover */
+}
